@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page_title">வெற்றி ஃபார்ம்ஸ் - ஆத்தூர்</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container" style="margin:0px;">
+      <div class="logo">
+        <img src="images/Frame 1000014514.png" alt="வெற்றி ஃபார்ம்ஸ்" class="logo-img" id="headerLogo">
+      </div>
+      <div class="navbar1">
+        <nav id="navbar">
+          <a href="#hero" data-i18n="nav_home">முகப்பு</a>
+          <a href="#about" data-i18n="nav_about">ஏன் வெற்றி ஃபார்ம்ஸ் ?</a>
+          <a href="#order" data-i18n="nav_order">ஆர்டர் செய்வது எப்படி?</a>
+          <a href="tel:+919360698767" class="nav-contact-btn" data-i18n="nav_call"><span class="material-symbols-outlined" style="font-size:18px; color:#1A3C1A; font-variation-settings:'FILL' 1;">call</span>
+            இப்போதே அழைக்கவும்</a>
+          <img src="images/g_translate.png">
+          <a href="#" class="lang-btn">English</a>
+        </nav>
+      </div>
+      <div class="hamburger" onclick="document.getElementById('navbar').classList.toggle('active')">
+        <span class="material-symbols-outlined" style="font-size:29px; color:#fff; font-variation-settings:'FILL' 1; transform:scaleX(-1);">sort</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img class="star" src="images/star.svg">
+        <p class="hero-subtitle" data-i18n="hero_subtitle"> 🐑 உயர்தர செம்மறி ஆடு வளர்ப்பு</p>
+        <h1 data-i18n="hero_title">
+          பண்ணையில் இருந்து <br>உங்கள் <span class="yellow-text">கடைக்கே</span><br>
+          <span>நேரடி விற்பனை!</span>
+        </h1>
+        <p class="hero-tagline" data-i18n="hero_tagline">தரம் • சுத்தம் • நம்பிக்கை • நேரடி விற்பனை</p>
+        <p class="hero-attribution" data-i18n="hero_attribution">— வெற்றி ஃபார்ம்ஸ் ஆத்தூர்</p>
+        <img class="star1" src="images/star.svg">
+        <div class="hero-buttons">
+          <a href="https://wa.me/919360698767" target="_blank" class="btn-primary" data-i18n="hero_wa_btn"><i
+              class="fab fa-whatsapp"></i> வாட்ஸ்அப்பில் விசாரிக்க</a>
+          <a href="tel:+919360698767" class="btn-secondary" data-i18n="hero_call_btn"><span class="material-symbols-outlined" style="font-size:18px; color:inherit; font-variation-settings:'FILL' 1;">call</span>
+            இப்போதே அழைக்கவும்</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== PREMIUM STATS ===== -->
+  <section class="premium-stats">
+    <div class="container">
+      <div class="premium-stats-row">
+        <div class="premium-stat-card">
+          <div class="premium-icon-box">
+            <span class="material-symbols-outlined premium-icon-img">savings</span>
+          </div>
+          <div class="premium-stat-text">
+            <h3 class="premium-stat-num" data-i18n="stat_sheep_num">1000+</h3>
+            <p class="premium-stat-label" data-i18n="stat_sheep_label">ஆக்குகள் வளர்ப்பு</p>
+          </div>
+        </div>
+        <div class="premium-stat-card">
+          <div class="premium-icon-box">
+            <span class="material-symbols-outlined premium-icon-img">nest_eco_leaf</span>
+          </div>
+          <div class="premium-stat-text">
+            <h3 class="premium-stat-num" data-i18n="stat_natural_num">100%</h3>
+            <p class="premium-stat-label" data-i18n="stat_natural_label">இயற்கை பராமரிப்பு</p>
+          </div>
+        </div>
+        <div class="premium-stat-card">
+          <div class="premium-icon-box">
+            <span class="material-symbols-outlined premium-icon-img">delivery_truck_speed</span>
+          </div>
+          <div class="premium-stat-text">
+            <h3 class="premium-stat-num" data-i18n="stat_orders_num">500+</h3>
+            <p class="premium-stat-label" data-i18n="stat_orders_label">மொத்த ஆர்டர்கள் நிறைவு</p>
+          </div>
+        </div>
+        <div class="premium-stat-card">
+          <div class="premium-icon-box">
+            <span class="material-symbols-outlined premium-icon-img">person_play</span>
+          </div>
+          <div class="premium-stat-text">
+            <h3 class="premium-stat-num" data-i18n="stat_years_num">40+</h3>
+            <p class="premium-stat-label" data-i18n="stat_years_label">ஆண்டுகள் அனுபவம்</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-title" style="margin-right: 0;">
+        <h2 data-i18n="about_title">ஏன் <span class="section-highlight">வெற்றி ஃபார்ம்ஸ்?</span></h2>
+        <img class="curve" src="images/curve.svg">
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/goatimg.svg" alt="ஆடு">
+        </div>
+        <div class="about-features">
+          <div class="about-feature-item">
+            <div class="icon"><span class="material-symbols-outlined">warehouse</span></div>
+            <div class="text">
+              <h4 data-i18n="about_f1_title">சொந்த பண்ணை வளர்ப்பு</h4>
+              <p data-i18n="about_f1_desc">எங்கள் சொந்த பண்ணையில் ஆரோக்கியமாக வளர்க்கப்படும் ஆடுகள்.</p>
+            </div>
+          </div>
+          <div class="about-feature-item">
+            <div class="icon"><span class="material-symbols-outlined">grass</span></div>
+            <div class="text">
+              <h4 data-i18n="about_f2_title">இயற்கையான உணவு</h4>
+              <p data-i18n="about_f2_desc">இயற்கையான சத்தான மற்றும்  தீவனம் உணவு.</p>
+            </div>
+          </div>
+          <div class="about-feature-item">
+            <div class="icon"><span class="material-symbols-outlined">health_metrics</span></div>
+            <div class="text">
+              <h4 data-i18n="about_f3_title">வழக்கமான பரிசோதனை</h4>
+              <p data-i18n="about_f3_desc">தவறாமல் கால்நடை மருத்துவ பரிசோதனை.</p>
+            </div>
+          </div>
+          <div class="about-feature-item">
+            <div class="icon"><span class="material-symbols-outlined">handshake</span></div>
+            <div class="text">
+              <h4 data-i18n="about_f4_title">நேரடி பண்ணை விற்பனை</h4>
+              <p data-i18n="about_f4_desc">நடுவண் கட்டணம் இன்றி நேரடியாக உங்களிடம்.</p>
+            </div>
+          </div>
+          <div class="about-feature-item">
+            <div class="icon"><span class="material-symbols-outlined">delivery_truck_speed</span></div>
+            <div class="text">
+              <h4 data-i18n="about_f5_title">பாதுகாப்பான டெலிவரி</h4>
+              <p data-i18n="about_f5_desc">பாதுகாப்பாக உங்கள் இடத்திற்கு டெலிவரி.</p>
+            </div>
+          </div>
+          <!-- <div class="goat"><img src="images/footer-bg.png"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHEEP TYPES ===== -->
+  <section class="sheep-types section" id="sheep">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="sheep_title">எங்களிடம் <span class="section-highlight">கிடைக்கும் ஆடுகள்</span></h2>
+        <img class="curve1" src="images/curve.svg">
+      </div>
+
+      <div class="sheep-grid">
+        <div class="sheep-card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/goat_1.png" alt="கிடாய் ஆடுகள்" loading="lazy">
+          </div>
+          <div class="card-label">
+            <h4 data-i18n="sheep_card1">கிடாய் ஆடுகள்</h4>
+          </div>
+        </div>
+        <div class="sheep-card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/goat_2.png" alt="பல் போட்ட ஆடுகள்" loading="lazy">
+          </div>
+          <div class="card-label">
+            <h4 data-i18n="sheep_card2">பல் போட்ட ஆடுகள்</h4>
+          </div>
+        </div>
+        <div class="sheep-card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/g1.png" alt="சிறந்த இனப்பெருக்க ஆடுகள்" loading="lazy">
+          </div>
+          <div class="card-label">
+            <h4 data-i18n="sheep_card3">சிறந்த இனப்பெருக்க ஆடுகள்</h4>
+          </div>
+        </div>
+        <div class="sheep-card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/g2.png" alt="விழாக்கால சிறப்பு ஆடுகள்" loading="lazy">
+          </div>
+          <div class="card-label">
+            <h4 data-i18n="sheep_card5">விழாக்கால சிறப்பு ஆடுகள்</h4>
+          </div>
+        </div>
+        <div class="sheep-cards">
+          <div class="card-img-wrap">
+            <img class="card-img" src="images/g3.png" alt="விழாக்கால சிறப்பு ஆடுகள்" loading="lazy">
+          </div>
+          <div class="card-label">
+            <h4 data-i18n="sheep_card6">மொத்த விற்பனை ஆடுகள்</h4>
+          </div>
+        </div>
+
+        <div class="Desc">
+          <img class="star" src="images/star.svg">
+          <p class="sheep-subtitle" data-i18n="sheep_subtitle" style="margin-top: -18px;"> இயற்கை சூழலில் ஆரோக்கியமாக
+            வளர்க்கப்படும் உயர்தர செம்மறி ஆடுகள். </p>
+          <img class="star" src="images/star.svg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CUSTOMER BENEFITS ===== -->
+  <section class="benefits section" id="benefits">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="benefits_title">கடை உரிமையாளர் <span class="section-highlight">நன்மைகள்</span></h2>
+        <img class="curve2" src="images/curve.svg">
+      </div>
+      <div class="benefits-grid">
+        <div class="benefits-image">
+          <img src="images/man.svg" alt="கடை உரிமையாளர்">
+        </div>
+        <div class="benefits-list">
+          <div class="benefit-item">
+            <div class="icon"><span class="material-symbols-outlined">schedule</span></div>
+            <div class="text">
+              <h4 data-i18n="benefit1_title">நேர சேமிப்பு</h4>
+              <p data-i18n="benefit1_desc">மார்க்கெட் போக வேண்டியதில்லை — நாங்கள் வருகிறோம்</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="icon"><span class="material-symbols-outlined">delivery_truck_speed</span></div>
+            <div class="text">
+              <h4 data-i18n="benefit2_title">உங்கள் கடைவாசல் டெலிவரி</h4>
+              <p data-i18n="benefit2_desc">உங்கள் இடத்திற்கே நேரடியாக போடப்படும்</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="icon"><span class="material-symbols-outlined">balance</span></div>
+            <div class="text">
+              <h4 data-i18n="benefit3_title">காலி வயிறு எடை</h4>
+              <p data-i18n="benefit3_desc">Empty Stomach Weight — நேர்மையான அளவீடு</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="icon"><span class="material-symbols-outlined">payments</span></div>
+            <div class="text">
+              <h4 data-i18n="benefit4_title">உறுதியான லாபம்</h4>
+              <p data-i18n="benefit4_desc">சரியான எடை + தரமான ஆடு = நல்ல வருமானம்</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="categories section" id="categories">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="categories_title"><span class="section-highlight">தரமான</span> குட்டிகள்</h2>
+        <img class="curve3" src="images/curve.svg">
+      </div>
+      <div class="cards">
+        <div class="card green" data-i18n="category1">கிடாய் குட்டிகள்</div>
+        <div class="card cyan" data-i18n="category2">காலி வயிறு எடை</div>
+        <div class="card blue" data-i18n="category3">பல் போட்ட குட்டிகள்</div>
+        <div class="card purple" data-i18n="category4">உறுதியான லாபம்</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORDER PROCESS ===== -->
+  <section class="order-process section" id="order">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="order_title"><span class="section-highlight">ஆர்டர்</span> செய்வது எப்படி?</h2>
+        <img class="curve4" src="images/curve.svg">
+      </div>
+      <div class="order-grid">
+        <div class="order-steps">
+          <div class="order-step">
+            <div class="step-num"><span class="material-symbols-outlined">phone_in_talk</span></div>
+            <div class="step-text">
+              <h4 data-i18n="order_s1_title">தொடர்பு கொள்ளுங்கள்</h4>
+              <p data-i18n="order_s1_desc">WhatsApp அல்லது அழைப்பு மூலம்</p>
+            </div>
+          </div>
+          <div class="order-step">
+            <div class="step-num"><span class="material-symbols-outlined">videocam</span></div>
+            <div class="step-text">
+              <h4 data-i18n="order_s2_title">புகைப்படம் &amp; வீடியோ பாருங்கள்</h4>
+              <p data-i18n="order_s2_desc">தேர்வு செய்த ஆட்டின் விவரங்களைப் பாருங்கள்</p>
+            </div>
+          </div>
+          <div class="order-step">
+            <div class="step-num"><span class="material-symbols-outlined">nest_eco_leaf</span></div>
+            <div class="step-text">
+              <h4 data-i18n="order_s3_title">ஆட்டை தேர்வு செய்யுங்கள்</h4>
+              <p data-i18n="order_s3_desc">உங்களுக்கு தேவையான ஆட்டை தேர்வு செய்யுங்கள்</p>
+            </div>
+          </div>
+          <div class="order-step">
+            <div class="step-num"><span class="material-symbols-outlined">money_bag</span></div>
+            <div class="step-text">
+              <h4 data-i18n="order_s4_title">25% முன்பணம் செலுத்துங்கள்</h4>
+              <p data-i18n="order_s4_desc">முன்பதிவு உறுதிப்படுத்த, டெலிவரி போது முழு பணம் செலுத்துங்கள்</p>
+            </div>
+          </div>
+          <div class="order-step">
+            <div class="step-num"><span class="material-symbols-outlined">delivery_truck_speed</span></div>
+            <div class="step-text">
+              <h4 data-i18n="order_s5_title">டெலிவரி பெறுங்கள்</h4>
+              <p data-i18n="order_s5_desc">உங்கள் இடத்திற்கு பாதுகாப்பாக டெலிவரி</p>
+            </div>
+          </div>
+        </div>
+        <div class="order-image">
+          <img src="images/last.png" alt="ஆடு">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 data-i18n="footer_loc_title">📍 இடம்: ஆத்தூர் (Aathur)</h3>
+          <h3 data-i18n="footer_loc2">மடத்துக்குளம் (அஞ்சல்), கொழுமம், திருப்பூர் மாவட்டம் <br> முன்பதிவிற்கு இப்போதே
+            அழைக்கவும்</h3>
+        </div>
+
+        <div class="footer-col">
+          <div class="phone-large">93606 98767</div>
+        </div>
+
+        <div class="footer-col">
+          <p class="phone-sub" data-i18n="footer_call_sub">பண்ணை முதல் பட்டணம் வரை — நாங்கள் உங்களுடன்!</p>
+        </div>
+
+        <div class="footer-col">
+          <h3 data-i18n="footer_social_title"> சமூக வலைதளங்களில்<br> எங்களைப் பின்தொடருங்கள் </h3>
+          <div class="footer-social">
+            <a class="what" href="https://wa.me/919360698767" target="_blank" title="WhatsApp"><img
+                src="images/logos_whatsapp-icon.png"></a>
+            <a class="insta" href="https://instagram.com/pannai2pattanam" target="_blank" title="Instagram"><img
+                src="images/skill-icons_instagram.png"></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copy" data-i18n="footer_copyright">&copy; Copyrights 2026 pannai2pattanam. All rights reserved</p>
+        <p class="comp"><br>Developed by <a href="https://vexorix1.vercel.app/">Vexorix Technologies</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="func.js?v=2"></script>
+</body>
+
+</html>
