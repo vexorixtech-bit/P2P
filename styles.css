@@ -21,11 +21,11 @@ body {
 }
 
 html.lang-ta body {
-  font-family: 'Lohit Tamil', sans-serif;
+  font-family: Lohit Tamil;
 }
 
-html.lang-en body {
-  font-family: 'Gilroy', sans-serif;
+.lang-en body {
+  font-family: 'Gilroy-Medium';
 }
 
 a {
@@ -157,17 +157,20 @@ nav {
   display: flex;
   align-items: center;
   gap: 28px;
-  margin-left: 270px;
+  margin-left: 180px;
 }
 
 .lang-en nav {
-  margin-left: 590px;
+  width: 750px;
+  margin-left: 380px;
+  margin-right: 0px;
+  gap: 70px;
 }
 
 nav a {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   transition: color 0.3s;
   white-space: nowrap;
 }
@@ -179,9 +182,9 @@ nav a:hover {
 .nav-contact-btn {
   background: #ffffff;
   color: #1A3C1A !important;
-  padding: 10px 22px;
-  font-weight: 400;
-  font-size: 15px;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 18px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -193,16 +196,32 @@ nav a:hover {
 }
 
 .lang-en .navbar1 {
+
   margin-left: 50px;
+
+}
+
+.lan .lang-btn {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.lang-en .lan .lang-btn {
+  margin-top: 0px;
 }
 
 .lang-btn {
   color: rgba(255, 255, 255, 0.982);
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   padding: 6px 14px 0px 0px;
   margin-left: -24px;
   transition: all 0.3s;
+}
+
+.lang-en .lang-btn {
+  gap: 0px;
 }
 
 .lang-btn:hover {
@@ -259,25 +278,26 @@ nav a:hover {
 .hero-content {
   max-width: 700px;
   margin-left: -85px;
-  margin-top: 78px;
+  margin-top: 8px;
 }
 
 .hero-subtitle {
-  font-size: 14px;
+  font-size: 18px;
   color: #ffffff;
   margin-bottom: 10px;
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 6px 16px;
-  font-family: Lohit Tamil Regular;
+  padding: 6px 10px 6px 10px;
+  /* font-family: Lohit Tamil; */
 }
 
 .hero-content h1 {
-  font-size: 32px;
+  font-size: 47px;
   color: #fff;
   line-height: 1.7;
   margin-bottom: 12px;
-  font-weight: 400;
+  font-weight: 10;
+  font-style: normal;
 }
 
 .hero-content h1 span {
@@ -488,7 +508,7 @@ nav a:hover {
 }
 
 .section-title h2 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 400;
   color: #000000;
   display: inline-block;
@@ -562,8 +582,8 @@ nav a:hover {
 }
 
 .about-feature-item .icon {
-  width: 44px;
-  height: 44px;
+  width: 54px;
+  height: 54px;
   min-width: 44px;
   background: #ffffff;
   border-radius: 40%;
@@ -577,7 +597,7 @@ nav a:hover {
 }
 
 .about-feature-item .icon .material-symbols-outlined {
-  font-size: 22px;
+  font-size: 32px;
   color: #2D5A27;
   font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0;
 }
@@ -587,7 +607,7 @@ nav a:hover {
 }
 
 .about-feature-item .text h4 {
-  font-size: 19px;
+  font-size: 24px;
   font-weight: 400;
   color: #000000;
   margin-bottom: 4px;
@@ -649,6 +669,10 @@ nav a:hover {
   justify-content: center;
 }
 
+.Desc .sheep-subtitle {
+  font-size: 24px;
+}
+
 .Desc .star {
   margin-left: 4px;
   margin-top: -25px;
@@ -656,7 +680,7 @@ nav a:hover {
 }
 
 .sheep-subtitle {
-  font-size: 20px;
+  font-size: 34px;
   font-weight: 500;
   color: #000000;
 }
@@ -706,7 +730,7 @@ nav a:hover {
 }
 
 .card-label h4 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   color: #000000;
   line-height: 1.3;
@@ -781,8 +805,8 @@ nav a:hover {
 
 
 .benefit-item .icon {
-  width: 44px;
-  height: 44px;
+  width: 54px;
+  height: 54px;
   min-width: 44px;
   background: #ffffff;
   border-radius: 40%;
@@ -800,7 +824,7 @@ nav a:hover {
 }
 
 .benefit-item .text h4 {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 400;
   color: #000000;
   margin-bottom: 6px;
@@ -813,7 +837,7 @@ nav a:hover {
 }
 
 .benefit-item .icon .material-symbols-outlined {
-  font-size: 22px;
+  font-size: 32px;
   color: #2D5A27;
   font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0;
 }
@@ -829,7 +853,7 @@ nav a:hover {
 
 .categories {
   background: #ffffff;
-  padding: 60px 0 120px;
+  padding: 60px 0 50px;
 }
 
 .cards {
@@ -847,11 +871,15 @@ nav a:hover {
 .card {
   position: absolute;
   padding: 18px 30px;
-  border-radius: 30px;
-  font-size: 1.58rem;
+  border-radius: 50px;
+  font-size: 24px;
   color: #333;
   border: 1px solid rgba(0, 0, 0, .15);
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.lang-en .card {
+  padding: 10px 23px;
 }
 
 .green {
@@ -873,33 +901,33 @@ nav a:hover {
 }
 
 .purple {
-  margin-left: 900px;
+  margin-left: 870px;
   background: #d9b1ef;
   margin-top: 12px;
 }
 
 .lang-en .green {
-  left: 120px;
+  left: 180px;
   margin-right: 0;
 }
 
 .lang-en .cyan {
-  left: 340px;
+  left: 360px;
   margin-right: 0;
 }
 
 .lang-en .blue {
-  left: 692px;
+  left: 652px;
   margin-left: 11px;
   margin-top: 35px;
 }
 
 .lang-en .purple {
-  left: 907px;
+  left: 820px;
   margin-left: 35px;
   margin-top: 67px;
-  margin-right: -110px;
-  transform: rotate(-8deg);
+  /* margin-right: -110px; */
+  transform: rotate(-10deg);
 }
 
 .order-process {
@@ -920,7 +948,8 @@ nav a:hover {
 }
 
 .order-grid {
-  display: grid;
+  display: flex;
+  position: relative;
   grid-template-columns: 1fr 360px;
   gap: 60px;
   align-items: center;
@@ -931,6 +960,7 @@ nav a:hover {
   flex-direction: column;
   gap: 24px;
   margin-left: 190px;
+  width: 800px;
 }
 
 .order-step {
@@ -940,8 +970,8 @@ nav a:hover {
 }
 
 .order-step .step-num {
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   min-width: 46px;
   background: #fafafb;
   border-radius: 40%;
@@ -954,14 +984,19 @@ nav a:hover {
   border: 1px solid #00000061;
 }
 
+.lang-en .order-step .step-num {
+  width: 46px;
+  height: 46px;
+}
+
 .order-step .step-num .material-symbols-outlined {
-  font-size: 22px;
+  font-size: 32px;
   color: #2D5A27;
   font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0;
 }
 
 .order-step .step-text h4 {
-  font-size: 19px;
+  font-size: 24px;
   font-weight: 400;
   color: #000;
   margin-bottom: 4px;
@@ -973,21 +1008,28 @@ nav a:hover {
 }
 
 .order-step .step-text p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   color: #000000;
 
 }
 
 .order-image {
+  position: absolute;
   display: flex;
   justify-content: center;
+  margin-left: 900px;
+}
+
+
+
+.lang-en .order-image {
+  margin-left: 800px;
 }
 
 .order-image img {
-  width: 64%;
+  width: 100%;
   height: 412px;
-  max-width: 298px;
   border-radius: 16px;
 }
 
@@ -1013,7 +1055,7 @@ footer {
 }
 
 .footer-col:first-child h3 {
-  font-size: 27px;
+  font-size: 34px;
 }
 
 .footer-col:first-child p {
@@ -1028,7 +1070,7 @@ footer {
 }
 
 .footer-col .phone-large {
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 2px;
@@ -1044,7 +1086,7 @@ footer {
 }
 
 .footer-col .phone-sub {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   line-height: 1.6;
 }
@@ -1090,16 +1132,16 @@ footer {
   margin-left: 10px;
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
 }
 
 .copy {
-  margin-left: 400px;
+  margin-left: 340px;
 }
 
 .comp {
-  margin-left: -298px;
+  margin-left: -368px;
 }
 
 .goat2 {
@@ -1557,6 +1599,12 @@ footer {
     width: auto;
   }
 
+  .lang-en nav {
+    width: 100%;
+    margin-left: 0;
+    gap: 24px;
+  }
+
   .hero {
     min-height: auto;
   }
@@ -1975,17 +2023,16 @@ footer {
   }
 
   .logo-img {
-    height: 30px !important;
-    width: 30px !important;
+    height: 40px !important;
+    width: 40px !important;
     margin: 0;
   }
 
   .hero {
     position: relative;
-    background: url(images/2b03ac6cef182c92c322153ea88939a6fbc869b1 (4).png);
+    background: url(images/2b03ac6cef182c92c322153ea88939a6fbc869b1(4).png);
     background-position: 60% center;
   }
-
 
   .hamburger {
     font-size: 22px;
@@ -2011,7 +2058,7 @@ footer {
   }
 
   .hero-content h1 {
-    font-size: 15px;
+    font-size: 22px;
     line-height: 1.4;
   }
 
@@ -2025,20 +2072,25 @@ footer {
   }
 
   .hero-tagline {
-    font-size: 10px;
+    font-size: 12px;
     word-spacing: -0.1cm;
   }
 
   .hero-attribution {
-    font-size: 10px;
+    font-size: 12px;
     color: #fafafad0;
+  }
+
+  .hero-buttons {
+    padding-left: 0px;
   }
 
   .hero-buttons .btn-primary,
   .hero-buttons .btn-secondary {
     font-size: 14px;
-    width: 250px;
+    width: 400px;
     padding: 5px 0px 5px 0px;
+    text-align: center;
   }
 
   .lang-en .hero-buttons .btn-primary,
@@ -2046,6 +2098,7 @@ footer {
     font-size: 14px;
     width: 150px;
     padding: 5px 0px 5px 0px;
+    text-align: center;
   }
 
   .star {
@@ -2058,6 +2111,7 @@ footer {
     width: 24px;
     height: 24px;
     margin-left: 8px;
+    margin-bottom: 8px;
   }
 
   .premium-stats-row {
@@ -2092,7 +2146,7 @@ footer {
   }
 
   .premium-stat-label {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .section-title {
@@ -2100,7 +2154,7 @@ footer {
   }
 
   .section-title h2 {
-    font-size: 15px;
+    font-size: 22px;
   }
 
   .curve {
@@ -2137,11 +2191,11 @@ footer {
   }
 
   .about-feature-item .text h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .about-feature-item .text p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .about-features {
@@ -2169,7 +2223,8 @@ footer {
   .about-grid {
     gap: 20px;
   }
-  .benefits-image{
+
+  .benefits-image {
     position: relative;
     margin: 0px;
   }
@@ -2192,12 +2247,12 @@ footer {
   }
 
   .benefits {
-  background: #ffffff;
-  position: relative;
-  overflow: hidden;
-  margin-top: 0px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
 
-}
+  }
 
   .benefits::before {
     content: '';
@@ -2219,12 +2274,12 @@ footer {
   }
 
   .benefit-item .text h4 {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 3px;
   }
 
   .benefit-item .text p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .benefits-grid {
@@ -2234,6 +2289,7 @@ footer {
   .sheep-grid {
     gap: 16px;
     max-width: 100%;
+    margin-top: 30px;
   }
 
   .Desc {
@@ -2255,11 +2311,12 @@ footer {
     margin-top: 20px !important;
     text-align: center;
     flex: 0 1 auto;
+    font-size: 15px;
   }
 
-  .sheep-subtitle {
+  /* .sheep-subtitle {
     font-size: 14px;
-  }
+  } */
 
   .card-label {
     padding: 8px;
@@ -2286,7 +2343,7 @@ footer {
 
   .card {
     padding: 8px 14px;
-    font-size: 0.85rem;
+    font-size: 14px;
     border-radius: 20px;
     position: absolute;
     margin: 0px;
@@ -2346,9 +2403,11 @@ footer {
   }
 
   .order-grid {
-    position: relative;
-    width: 200px;
+    /* position: relative; */
+    width: 300px;
     height: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .order-step .step-num {
@@ -2364,20 +2423,27 @@ footer {
   }
 
   .order-step .step-text h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .order-step .step-text p {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  .order-image {
+    position: absolute;
+    top: 0;
+    left: 270px;
+    margin: 0;
   }
 
   .order-image img {
-    position: absolute;
+    /* position: relative; */
     width: 130px;
     height: auto;
     max-width: 130px;
-    margin-left: 340px;
-    margin-top: 70px;
+    margin-left: 10px;
+    margin-top: 7px;
   }
 
   .footer-col .phone-large {
@@ -2425,17 +2491,17 @@ footer {
 
   .curve {
     width: 120px;
-    margin-left: 140px !important;
+    margin-left: 170px !important;
   }
 
   .curve1 {
     width: 120px;
-    margin-left: 170px !important;
+    margin-left: 210px !important;
   }
 
   .curve2 {
     width: 120px;
-    margin-left: 190px !important;
+    margin-left: 270px !important;
   }
 
   .curve3 {

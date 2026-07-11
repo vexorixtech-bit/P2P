@@ -5,7 +5,7 @@ const i18n = {
     page_title: "வெற்றி ஃபார்ம்ஸ் - ஆத்தூர்",
     sheep_page_title: "எங்களிடம் கிடைக்கும் ஆடுகள் - வெற்றி ஃபார்ம்ஸ்",
     nav_home: "முகப்பு",
-    nav_about: "ஏன் வெற்றி ஃபார்ம்ஸ் ?",
+    nav_about: "ஏன் வெற்றி ஃபார்ம்ஸ் ",
     nav_sheep: "ஆடுகள்",
     nav_order: "ஆர்டர் செய்வது எப்படி?",
     nav_call: '<span class="material-symbols-outlined" style="font-size:18px; color:#1A3C1A; font-variation-settings: \'FILL\' 1;">call</span> இப்போதே அழைக்கவும்',
@@ -203,24 +203,25 @@ function applyLanguage(lang) {
   currentLang = lang;
 
 }
-
 // ===== Init on DOM Ready =====
 document.addEventListener('DOMContentLoaded', function () {
   window.scrollTo(0, 0);
   applyLanguage(currentLang);
-  // Toggle language on button click
-  document.querySelectorAll('.lang-btn').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      applyLanguage(currentLang === 'ta' ? 'en' : 'ta');
-    });
-  });
 });
 
-// ===== Close mobile nav on link click =====
-document.addEventListener('click', function(e) {
+// ===== Single delegated click handler (nav + language toggle) =====
+document.addEventListener('click', function (e) {
   var nav = document.getElementById('navbar');
+
+  var langBtn = e.target.closest('.lang-btn');
+  if (langBtn) {
+    e.preventDefault();
+    applyLanguage(currentLang === 'ta' ? 'en' : 'ta');
+    if (nav) nav.classList.remove('active');
+    return;
+  }
+
   if (e.target.closest('#navbar a')) {
-    nav.classList.remove('active');
+    if (nav) nav.classList.remove('active');
   }
 });
