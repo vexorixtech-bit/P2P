@@ -1185,7 +1185,7 @@ footer {
 
   .lang-en .logo-img,
   .lang-ta .logo-img {
-    margin-left: 32;
+    margin-left: 33px;
   }
 
   .hero-content {
@@ -2337,6 +2337,7 @@ footer {
   .benefits-image {
     position: relative;
     margin: 0px;
+    margin-top: 12px;
   }
 
   .benefits-image img {
@@ -2382,7 +2383,7 @@ footer {
     pointer-events: none;
     margin: 40px 0 0 0;
     margin-top: 414px;
-    margin-right: -263px;
+    margin-left : 179px;
   }
 
   .benefits::after {
@@ -2462,6 +2463,7 @@ footer {
     height: 150px;
     width: 100%;
     margin-top: 32px;
+    margin-left: 17px;
   }
 
   .card {
