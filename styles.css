@@ -1287,6 +1287,12 @@ footer {
     margin: 0;
   }
 
+  .lang-en .green,
+  .lang-en .blue,
+  .lang-en .purple {
+    margin-left: 0;
+  }
+
   .lang-btn {
     margin-left: 0;
   }
