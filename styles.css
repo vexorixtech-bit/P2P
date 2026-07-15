@@ -142,11 +142,16 @@ header .container {
   border-radius: 50%;
   object-fit: cover;
   margin-top: 20px;
-  margin-left: 79px;
-  margin-right: 90px;
+  margin-left: 179px;
+
 }
 
-.lang-en .logo-img,
+.lang-en .logo-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 0;
+}
 .lang-ta .logo-img {
   width: 100px;
   height: 100px;
@@ -257,7 +262,7 @@ nav a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.40);
   z-index: 1;
 }
 
@@ -2196,7 +2201,7 @@ footer {
   }
 
   .section-title {
-    margin-bottom: 24px;
+    margin-bottom: 0px;
   }
 
   .section-title h2 {
@@ -2435,7 +2440,7 @@ footer {
     background: #bfd2f3;
     transform: rotate(18deg) !important;
     z-index: 1;
-    bottom: 30px;
+    bottom: 15px;
     left: -11px;
   }
 
@@ -2443,7 +2448,7 @@ footer {
     background: #d9b1ef;
     transform: rotate(-2deg) !important;
     z-index: 2;
-    bottom: 29px;
+    bottom: 15px;
     right: -11px;
   }
 
