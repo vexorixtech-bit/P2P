@@ -126,7 +126,7 @@ header {
 header .container {
   display: flex;
   align-items: center;
-  margin-left: -138px;
+  margin-left: 34px;
   justify-content: space-between;
 }
 
@@ -430,12 +430,13 @@ nav a:hover {
   position: relative;
   z-index: 10;
   margin-top: -60px;
+  padding: 20px 0;
 }
 
 .premium-stats-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
+  gap: 16px;
   background: #ffffff;
   width: 100%;
   margin: 0 auto;
