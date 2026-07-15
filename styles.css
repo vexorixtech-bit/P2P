@@ -1337,7 +1337,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: -250px;
+    margin-top: -400px;
     background-position: right center;
   }
 }
@@ -1523,7 +1523,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: -250px;
+    margin-top: -400px;
     background-position: right center;
   }
 
@@ -1845,7 +1845,7 @@ footer {
   .benefits::before {
     background-size: 140px;
     margin-left: 0;
-    margin-top: -300px;
+    margin-top: -500px;
   }
 
   .sheep-grid {
@@ -2363,7 +2363,7 @@ footer {
     opacity: 0.5;
     pointer-events: none;
     margin: 0;
-    margin-top: -280px;
+    margin-top: -450px;
   }
 
   .benefits::after {
