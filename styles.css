@@ -2229,7 +2229,7 @@ footer {
   }
 
   .premium-stats-row {
-    padding: 1px;
+    padding: 12px;
     gap: 0;
     margin-top: -29px;
   }
@@ -2237,7 +2237,7 @@ footer {
   .premium-stat-card {
     border-right: none;
     border-bottom: 1px solid #e8e8e8;
-    padding: 3px;
+    padding: 12px;
     justify-content: flex-start;
   }
 
