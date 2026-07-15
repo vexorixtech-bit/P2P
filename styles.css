@@ -889,23 +889,6 @@ nav a:hover {
   padding: 10px 23px;
 }
 
-.lang-en .cards {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 16px;
-  justify-content: center;
-  width: auto;
-  margin-left: 0;
-  height: auto;
-  position: static;
-}
-
-.lang-en .card {
-  position: static;
-  transform: none;
-  margin: 0;
-}
-
 .green {
   margin-right: 790px;
   background: #baf5d8;
@@ -932,26 +915,18 @@ nav a:hover {
 
 .lang-en .green {
   background: #baf5d8;
-  margin: 0;
-  transform: none;
 }
 
 .lang-en .cyan {
   background: #79eef2;
-  margin: 0;
-  transform: none;
 }
 
 .lang-en .blue {
   background: #bfd2f3;
-  margin: 0;
-  transform: none;
 }
 
 .lang-en .purple {
   background: #d9b1ef;
-  margin: 0;
-  transform: none;
 }
 
 .order-process {
@@ -1308,28 +1283,6 @@ footer {
     position: static;
     transform: none !important;
     margin: 0;
-  }
-
-  .lang-en .green,
-  .lang-en .cyan,
-  .lang-en .blue,
-  .lang-en .purple {
-    left: auto;
-    margin: 0;
-  }
-
-  .lang-en .cards {
-    display: flex;
-    gap: 8px;
-    width: 100%;
-    margin-left: 0;
-    height: auto;
-    position: static;
-  }
-
-  .lang-en .card {
-    position: static;
-    transform: none;
   }
 
   .lang-btn {
