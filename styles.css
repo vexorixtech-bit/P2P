@@ -932,18 +932,26 @@ nav a:hover {
 
 .lang-en .green {
   background: #baf5d8;
+  margin: 0;
+  transform: none;
 }
 
 .lang-en .cyan {
   background: #79eef2;
+  margin: 0;
+  transform: none;
 }
 
 .lang-en .blue {
   background: #bfd2f3;
+  margin: 0;
+  transform: none;
 }
 
 .lang-en .purple {
   background: #d9b1ef;
+  margin: 0;
+  transform: none;
 }
 
 .order-process {
