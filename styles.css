@@ -126,7 +126,7 @@ header {
 header .container {
   display: flex;
   align-items: center;
-  margin-left: 34px;
+  margin-left: -12%;
   justify-content: space-between;
 }
 
@@ -162,7 +162,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 28px;
-  margin-left: 180px;
+  margin-left: 340px;
 }
 
 .lang-en nav {
@@ -628,7 +628,7 @@ nav a:hover {
 .about::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: 228px;
   top: 0;
   width: 350px;
   height: 560px;
@@ -752,13 +752,13 @@ nav a:hover {
 }
 
 .benefits::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url('images/goatimg1.svg') right center / 296px no-repeat;
-  opacity: 0.9;
-  margin-top: 0;
-  pointer-events: none;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(images/goatimg1.svg) right 52% / 296px no-repeat;
+    opacity: 0.9;
+    margin-top: 308px;
+    margin-right: 260px;
 }
 
 .benefits::after {
@@ -986,9 +986,10 @@ nav a:hover {
 }
 
 .lang-en .order-step .step-num {
-  width: 52px;
-  height: 52px;
-  min-width: 52px;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border: 1px solid #aaa;
 }
 
 .order-step .step-num .material-symbols-outlined {
@@ -1159,7 +1160,7 @@ footer {
 /* ===== RESPONSIVE - ≤1200px ===== */
 @media (max-width: 1200px) {
   header .container {
-    margin-left: 0;
+    margin-left: -11%;
     padding: 0 24px;
   }
 
@@ -1177,7 +1178,7 @@ footer {
   }
 
   .logo-img {
-    margin-left: 0;
+    margin-left: 12px;
     margin-right: 0;
     margin-top: 0;
   }
@@ -1342,8 +1343,8 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: 0;
-    background-position: right center;
+    margin-top: 80px;
+    background-position: left center;
   }
 }
 
@@ -1528,8 +1529,8 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: 0;
-    background-position: right center;
+    margin-top: 80px;
+    background-position: left center;
   }
 
   .benefits {
@@ -1850,8 +1851,8 @@ footer {
   .benefits::before {
     background-size: 200px;
     margin-left: 0;
-    margin-top: 0;
-    background-position: right center;
+    margin-top: 60px;
+    background-position: left center;
   }
 
   .sheep-grid {
@@ -1917,6 +1918,11 @@ footer {
     font-size: 1.2rem;
   }
 
+  .lang-en .card {
+    padding: 10px 18px;
+    font-size: 1.1rem;
+  }
+
   .categories {
     padding: 40px 0;
   }
@@ -1946,6 +1952,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .lang-en .order-step .step-num {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
   }
 
   .step-icon-img {
@@ -2365,10 +2377,11 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('images/goatimg1.svg') right center / 200px no-repeat;
+    background: url('images/goatimg1.svg') left center / 200px no-repeat;
     opacity: 0.5;
     pointer-events: none;
-    margin: 0;
+    margin: 40px 0 0 0;
+    margin-top: 414px;
   }
 
   .benefits::after {
@@ -2514,6 +2527,53 @@ footer {
     right: -11px;
   }
 
+  .lang-en .cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 10px;
+    height: auto;
+    width: 100%;
+  }
+
+  .lang-en .card {
+    position: relative;
+    padding: 8px 16px;
+    font-size: 13px;
+    border-radius: 14px;
+    margin: 0;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: rotate(0deg) !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+  }
+
+  .lang-en .green {
+    background: #baf5d8;
+    transform: rotate(5deg) !important;
+  }
+
+  .lang-en .cyan {
+    background: #79eef2;
+    transform: rotate(-4deg) !important;
+  }
+
+  .lang-en .blue {
+    background: #bfd2f3;
+    transform: rotate(7deg) !important;
+  }
+
+  .lang-en .purple {
+    background: #d9b1ef;
+    transform: rotate(-3deg) !important;
+  }
+
   .order-grid {
     /* position: relative; */
     width: 300px;
@@ -2532,6 +2592,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .lang-en .order-step .step-num {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
   }
 
   .order-step .step-num .material-symbols-outlined {
@@ -2709,9 +2775,9 @@ footer {
   }
 
   .lang-en .order-image img {
-    width: 100px;
+    width: 169px;
     height: auto;
-    max-width: 100px;
+    max-width: 157px;
     opacity: 0.15;
   }
 
@@ -2804,6 +2870,11 @@ footer {
     font-size: 13px;
   }
 
+  .lang-en .card {
+    padding: 5px 12px;
+    font-size: 11px;
+  }
+
   .footer-col .phone-large {
     font-size: 17px;
   }
@@ -2844,11 +2915,11 @@ footer {
   }
 
   .lang-en .order-image img {
-    width: 80px;
+    width: 153px;
     height: auto;
-    max-width: 80px;
+    max-width: 157px;
     margin-left: 0;
-    opacity: 0.15;
+    opacity: 0.20;
   }
 
   .lang-en .hero-buttons .btn-primary,
