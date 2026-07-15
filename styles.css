@@ -2498,18 +2498,26 @@ footer {
 
   .lang-en .green {
     transform: rotate(8deg) !important;
+    top: 10px;
+    left: -5px;
   }
 
   .lang-en .cyan {
     transform: rotate(-6deg) !important;
+    top: 10px;
+    right: 10px;
   }
 
   .lang-en .blue {
     transform: rotate(10deg) !important;
+    bottom: 15px;
+    left: -11px;
   }
 
   .lang-en .purple {
     transform: rotate(-3deg) !important;
+    bottom: 15px;
+    right: -11px;
   }
 
   .order-grid {
