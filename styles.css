@@ -1185,7 +1185,7 @@ footer {
 
   .lang-en .logo-img,
   .lang-ta .logo-img {
-    margin-left: 0;
+    margin-left: 32;
   }
 
   .hero-content {
@@ -2327,7 +2327,7 @@ footer {
     opacity: 1;
     z-index: 1;
     margin-top: 420px;
-    margin-right: -10px;
+    margin-right: -263px;
   }
 
   .about-grid {
@@ -2382,6 +2382,7 @@ footer {
     pointer-events: none;
     margin: 40px 0 0 0;
     margin-top: 414px;
+    margin-left: 111px;
   }
 
   .benefits::after {
@@ -2460,6 +2461,7 @@ footer {
     padding: 0px 0;
     height: 150px;
     width: 100%;
+    margin-top: 32px;
   }
 
   .card {
