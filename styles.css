@@ -755,10 +755,9 @@ nav a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('images/goatimg1.svg') center center / 296px no-repeat;
+  background: url('images/goatimg1.svg') right center / 296px no-repeat;
   opacity: 0.9;
-  margin-top: 320px;
-  margin-left: 1080px;
+  margin-top: 0;
   pointer-events: none;
 }
 
@@ -1337,7 +1336,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: -400px;
+    margin-top: 0;
     background-position: right center;
   }
 }
@@ -1523,7 +1522,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: -400px;
+    margin-top: 0;
     background-position: right center;
   }
 
@@ -1843,9 +1842,10 @@ footer {
   }
 
   .benefits::before {
-    background-size: 140px;
+    background-size: 200px;
     margin-left: 0;
-    margin-top: -500px;
+    margin-top: 0;
+    background-position: right center;
   }
 
   .sheep-grid {
@@ -2359,11 +2359,10 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('images/goatimg1.svg') right bottom / 239px no-repeat;
+    background: url('images/goatimg1.svg') right center / 200px no-repeat;
     opacity: 0.5;
     pointer-events: none;
     margin: 0;
-    margin-top: -450px;
   }
 
   .benefits::after {
