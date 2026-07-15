@@ -142,20 +142,20 @@ header .container {
   border-radius: 50%;
   object-fit: cover;
   margin-top: 20px;
-  margin-left: 0;
+  margin-left: 179px;
 }
 
 .lang-en .logo-img{
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin-left: 0;
+  margin-left: 179px;
 }
 .lang-ta .logo-img {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin-left: 0;
+  margin-left: 221px;
 }
 
 nav {
