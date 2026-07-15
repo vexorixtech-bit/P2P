@@ -126,7 +126,7 @@ header {
 header .container {
   display: flex;
   align-items: center;
-  margin-left: 271px;
+  margin-left: -138px;
   justify-content: space-between;
 }
 
