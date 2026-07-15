@@ -915,6 +915,7 @@ nav a:hover {
 
 .lang-en .green {
   background: #baf5d8;
+  margin-left: 31px;
 }
 
 .lang-en .cyan {
@@ -923,10 +924,12 @@ nav a:hover {
 
 .lang-en .blue {
   background: #bfd2f3;
+  margin-left: 244px;
 }
 
 .lang-en .purple {
   background: #d9b1ef;
+  margin-left: 657px;
 }
 
 .order-process {
@@ -1334,7 +1337,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -40px;
     background-position: right center;
   }
 }
@@ -1520,7 +1523,7 @@ footer {
 
   .benefits::before {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -40px;
     background-position: right center;
   }
 
@@ -1842,7 +1845,7 @@ footer {
   .benefits::before {
     background-size: 140px;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -80px;
   }
 
   .sheep-grid {
@@ -2357,9 +2360,10 @@ footer {
     position: absolute;
     inset: 0;
     background: url('images/goatimg1.svg') right bottom / 239px no-repeat;
-    opacity: 1;
+    opacity: 0.5;
     pointer-events: none;
     margin: 0;
+    margin-top: -60px;
   }
 
   .benefits::after {
@@ -2825,12 +2829,13 @@ footer {
   }
 
   .lang-en .order-image {
-    position: absolute;
-    top: 0;
-    left: auto;
-    right: 10px;
-    margin-left: 0;
-    width: auto;
+        position: absolute;
+        top: 124px;
+        left: auto;
+        right: 10px;
+        margin-left: 0;
+        width: 141px;
+        max-height: 267px;
   }
 
   .lang-en .order-image img {
