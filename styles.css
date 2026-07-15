@@ -257,7 +257,7 @@ nav a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.55);
   z-index: 1;
 }
 
@@ -1894,6 +1894,7 @@ footer {
   .cards {
     gap: 8px;
     overflow: visible;
+    position: relative;
   }
 
   .card {
@@ -2195,7 +2196,7 @@ footer {
   }
 
   .section-title {
-    margin-bottom: 0px;
+    margin-bottom: 24px;
   }
 
   .section-title h2 {
@@ -2400,8 +2401,9 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 0;
-    padding: 11px 17px 6px 24px;    
+    padding: 0px 0;
     height: 150px;
+    width: 100%;
   }
 
   .card {
@@ -2414,55 +2416,51 @@ footer {
   }
 
   .green {
-    margin-top: -25px;
-    margin-right: 150px;
+    background: #baf5d8;
     transform: rotate(15deg) !important;
     z-index: 1;
+    top: 10px;
+    left: -5px;
   }
 
   .cyan {
-    margin-top: -25px;
-    margin-left: 140px;
+    background: #79eef2;
     transform: rotate(-9deg) !important;
     z-index: 2;
+    top: 10px;
+    right: 10px;
   }
 
   .blue {
-    margin-right: 170px;
-    margin-top: 90px;
+    background: #bfd2f3;
     transform: rotate(18deg) !important;
     z-index: 1;
+    bottom: 30px;
+    left: -11px;
   }
 
   .purple {
-    margin-left: 153px;
-    margin-top: 100px;
-    transform: rotate(-5deg) !important;
+    background: #d9b1ef;
+    transform: rotate(-2deg) !important;
     z-index: 2;
+    bottom: 29px;
+    right: -11px;
   }
 
   .lang-en .green {
-    margin-top: -25px;
-    margin-right: 170px;
-
+    transform: rotate(8deg) !important;
   }
 
   .lang-en .cyan {
-    margin-top: -25px;
-    margin-left: 130px;
-
+    transform: rotate(-6deg) !important;
   }
 
   .lang-en .blue {
-    margin-right: 140px;
-    margin-top: 90px;
-
+    transform: rotate(10deg) !important;
   }
 
   .lang-en .purple {
-    margin-left: 130px;
-    margin-top: 100px;
-
+    transform: rotate(-3deg) !important;
   }
 
   .order-grid {
