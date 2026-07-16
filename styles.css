@@ -628,7 +628,7 @@ nav a:hover {
 .about::after {
   content: "";
   position: absolute;
-  right: 228px;
+  right: 116px;
   top: 0;
   width: 350px;
   height: 560px;
@@ -758,7 +758,7 @@ nav a:hover {
     background: url(images/goatimg1.svg) right 52% / 296px no-repeat;
     opacity: 0.9;
     margin-top: 308px;
-    margin-right: 260px;
+    margin-right: 135px;
 }
 
 .benefits::after {
