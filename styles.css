@@ -2503,6 +2503,7 @@ footer {
     padding: 12px 10px;
     height: auto;
     width: 100%;
+    margin-top: 21px;
   }
 
   .card {
@@ -2731,12 +2732,12 @@ footer {
 
   .curve3 {
     width: 120px;
-    margin-left: 55px !important;
+    margin-left: 70px !important;
   }
 
   .curve4 {
     width: 120px;
-    margin-left: 30px !important;
+    margin-left: 53px !important;
   }
 
   .lang-en .curve {
