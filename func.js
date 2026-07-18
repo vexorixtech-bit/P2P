@@ -13,7 +13,7 @@ const i18n = {
     hero_title: 'பண்ணையில் இருந்து <br>உங்கள் <span class="yellow-text">கடைக்கே</span><br><span>நேரடி விற்பனை!</span>',
     hero_tagline: "தரம் • சுத்தம் • நம்பிக்கை • நேரடி விற்பனை",
     hero_attribution: "— வெற்றி ஃபார்ம்ஸ் ஆத்தூர்",
-    hero_wa_btn: '<i class="fab fa-whatsapp"></i> Whatsapp-ல் விசாரிக்க',
+    hero_wa_btn: '<i class="fab fa-whatsapp"></i> வாட்ஸ்அப்பில் விசாரிக்க',
     hero_call_btn: '<span class="material-symbols-outlined" style="font-size:18px; color:inherit; font-variation-settings:\'FILL\' 1;">call</span> இப்போதே அழைக்கவும்',
     stat_sheep_num: "1000+",
     stat_sheep_label: "ஆடுகள் வளர்ப்பு",
