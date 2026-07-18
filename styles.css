@@ -116,12 +116,13 @@ img {
 }
 
 header {
-  position: absolute;
-  top: -21px;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  padding: 20px 0;
+    position: absolute;
+    top: -21px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 20px 0;
+    margin-left: -167px;
 }
 
 header .container {
@@ -1680,7 +1681,7 @@ footer {
 
   .hero-content {
     margin-left: 6px;
-    margin-top: 3px;
+    margin-top: 80px;
     max-width: 100%;
   }
 
@@ -2189,6 +2190,14 @@ footer {
   .hero .container {
     padding-top: 100px;
     padding-bottom: 60px;
+  }
+
+  .hero {
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    margin-top: 60px;
   }
 
   .hero-content h1 {
@@ -2840,6 +2849,14 @@ footer {
   .hero .container {
     padding-top: 90px;
     padding-bottom: 50px;
+  }
+
+  .hero {
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    margin-top: 60px;
   }
 
   .hero-content h1 {
