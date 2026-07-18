@@ -2628,6 +2628,10 @@ footer {
     margin-bottom: 20px;
   }
 
+  .order-steps {
+    width: 100%;
+  }
+
   .order-step .step-num {
     width: 36px;
     height: 36px;
@@ -2858,7 +2862,11 @@ footer {
   }
 
   .hero-subtitle {
-    font-size: 8px;
+    font-size: 11px;
+  }
+
+  .hero-tagline {
+    font-size: 11px;
   }
 
   .hero-buttons .btn-primary,
@@ -2866,6 +2874,7 @@ footer {
     font-size: 13px;
     padding: 8px 14px;
     margin-left: 0;
+    width: 100%;
   }
 
   .section-title h2 {
@@ -2873,7 +2882,7 @@ footer {
   }
 
   .section {
-    padding: 24px 0px 72px;
+    padding: 24px 0 40px;
   }
 
   .about-image img {
@@ -2908,7 +2917,7 @@ footer {
   }
 
   .premium-stat-label {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .card {
@@ -2934,6 +2943,36 @@ footer {
         max-width: 157px;
         margin-left: 0;
         opacity: 0.20;
+  }
+
+  .order-image {
+    position: relative;
+    left: auto;
+    margin: 0 auto;
+  }
+
+  .order-grid {
+    width: 100%;
+    height: auto;
+  }
+
+  .about::after {
+    display: none;
+  }
+
+  .benefits::before {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }
+
+  .footer-col .phone-sub {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-col h3 {
+    font-size: 12px;
   }
 
   .lang-en .order-steps {
