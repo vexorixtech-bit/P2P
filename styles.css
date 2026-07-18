@@ -5,6 +5,7 @@
 }
 
 html {
+  overflow-x: hidden;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -126,7 +127,7 @@ header {
 header .container {
   display: flex;
   align-items: center;
-  margin-left: -12%;
+  margin-left: 0;
   justify-content: space-between;
 }
 
@@ -1190,7 +1191,7 @@ footer {
 /* ===== RESPONSIVE - ≤1200px ===== */
 @media (max-width: 1200px) {
   header .container {
-    margin-left: -11%;
+    margin-left: 0;
     padding: 0 24px;
   }
 
@@ -1201,6 +1202,14 @@ footer {
   nav {
     margin-left: 0;
     gap: 18px;
+  }
+
+  .copy {
+    margin-left: 0;
+  }
+
+  .comp {
+    margin-left: 0;
   }
 
   .lang-en nav {
@@ -2230,7 +2239,7 @@ footer {
   .star {
     width: 24px;
     height: 24px;
-    margin-left: -8px;
+    margin-left: 0;
   }
 
   .star1 {
@@ -2357,7 +2366,7 @@ footer {
     opacity: 1;
     z-index: 1;
     margin-top: 420px;
-    margin-right: -162px;
+    margin-right: 0;
   }
 
   .about-grid {
@@ -2483,58 +2492,50 @@ footer {
   }
 
   .cards {
-    position: relative;
+   position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 0;
-    padding: 0px 0;
-    height: 150px;
+    gap: 10px;
+    padding: 12px 10px;
+    height: auto;
     width: 100%;
-    margin-top: 32px;
-    margin-left: 17px;
   }
 
   .card {
-    padding: 8px 14px;
-    font-size: 14px;
+    padding: 8px 16px;
+    font-size: 13px;
     border-radius: 14px;
-    position: absolute;
-    margin: 0px;
+    position: relative;
+    margin: 0;
+    white-space: nowrap;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: rotate(0deg) !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
   }
 
   .green {
     background: #baf5d8;
-    transform: rotate(15deg) !important;
-    z-index: 1;
-    top: 10px;
-    left: -5px;
+    transform: rotate(5deg) !important;
   }
 
   .cyan {
     background: #79eef2;
-    transform: rotate(-9deg) !important;
-    z-index: 2;
-    top: 10px;
-    right: 10px;
+    transform: rotate(-4deg) !important;
   }
 
   .blue {
     background: #bfd2f3;
-    transform: rotate(18deg) !important;
-    z-index: 1;
-    bottom: 15px;
-    left: -11px;
+    transform: rotate(7deg) !important;
   }
 
   .purple {
     background: #d9b1ef;
-    transform: rotate(-2deg) !important;
-    z-index: 2;
-    bottom: 15px;
-    right: -11px;
+    transform: rotate(-3deg) !important;
   }
 
   .lang-en .green {
@@ -2663,7 +2664,7 @@ footer {
     width: 169px;
     height: auto;
     max-width: 157px;
-    margin-left: -73px;
+    margin-left: 0;
     margin-top: 7px;
     opacity: 0.15;
   }
@@ -2853,7 +2854,7 @@ footer {
   .hero-buttons .btn-secondary {
     font-size: 13px;
     padding: 8px 14px;
-    margin-left: -52px;
+    margin-left: 0;
   }
 
   .section-title h2 {
@@ -2920,7 +2921,7 @@ footer {
   .order-image img {
         width: 153px;
         max-width: 157px;
-        margin-left: -122px;
+        margin-left: 0;
         opacity: 0.20;
   }
 
