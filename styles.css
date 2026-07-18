@@ -2160,6 +2160,7 @@ footer {
     height: 40px !important;
     width: 40px !important;
     margin: 0;
+    margin-left: auto;
   }
 
   .hero {
