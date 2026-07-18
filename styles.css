@@ -1590,6 +1590,13 @@ footer {
     margin-left: 0;
   }
 
+  .lang-en .order-image {
+    margin-left: 0;
+  }
+}
+
+/* ===== RESPONSIVE - ≤481px to ≤1024px (order-image fix, skips 480px) ===== */
+@media (min-width: 481px) and (max-width: 1024px) {
   .order-image {
     position: relative;
     order: -1;
@@ -2019,12 +2026,7 @@ footer {
   }
 
   .order-image {
-    position: relative;
     order: -1;
-    margin-left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
   }
 
   .order-image img {
