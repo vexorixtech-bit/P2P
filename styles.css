@@ -1758,7 +1758,7 @@ footer {
 
   .premium-stat-label {
     font-size: 19px;
-    white-space: normal;
+    white-space: nowrap;
   }
 
   .premium-icon-box {
