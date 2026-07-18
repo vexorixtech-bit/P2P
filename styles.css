@@ -1526,16 +1526,6 @@ footer {
     margin-left: 0;
   }
 
-  .lang-ta .order-image,
-  .lang-en .order-image {
-    position: relative;
-    order: -1;
-    margin-left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
   .footer-grid {
     gap: 24px;
   }
@@ -1597,6 +1587,10 @@ footer {
   }
 
   .lang-en .about-features {
+    margin-left: 0;
+  }
+
+  .lang-en .order-image {
     margin-left: 0;
   }
 }
@@ -1711,7 +1705,7 @@ footer {
   .hero-buttons {
     flex-direction: column;
     align-items: stretch;
-    padding-left: 0;
+    padding-left: 26px;
   }
 
   .hero-buttons .btn-primary,
@@ -2150,15 +2144,6 @@ footer {
     width: 160px;
     height: auto;
     max-width: 160px;
-  }
-
-  .lang-ta .order-image {
-    position: relative;
-    order: -1;
-    margin-left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
   }
 }
 
@@ -2957,17 +2942,13 @@ footer {
         width: 153px;
         max-width: 157px;
         margin-left: 0;
-        margin-top: 7px;
-        opacity: 0.15;
+        opacity: 0.20;
   }
 
   .order-image {
-    position: absolute;
-    top: 0;
+    position: relative;
     left: auto;
-    right: 10px;
-    margin: 0;
-    z-index: 0;
+    margin: 0 auto;
   }
 
   .order-grid {
