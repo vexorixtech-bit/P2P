@@ -6,7 +6,7 @@
 
 html {
   overflow-x: hidden;
-  overflow: -moz-scrollbars-none;
+  overflow-y: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -1390,11 +1390,11 @@ footer {
 /* ===== RESPONSIVE - ≤1024px ===== */
 @media (max-width: 1024px) {
   .container {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   header .container {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   nav {
@@ -2149,10 +2149,10 @@ footer {
 /* ===== RESPONSIVE - ≤480px ===== ============================================*/
 @media (max-width: 480px) {
   .container {
-    padding: 0 14px;
+    padding: 0 24px;
   }
-
   header {
+
     top: 0;
   }
 
@@ -2829,9 +2829,8 @@ footer {
 /* ===== RESPONSIVE - ≤360px ===== */
 @media (max-width: 360px) {
   .container {
-    padding: 0 10px;
+    padding: 0 24px;
   }
-
   .logo-img {
     height: 36px;
     width: 36px;
