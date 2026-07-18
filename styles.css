@@ -1590,8 +1590,13 @@ footer {
     margin-left: 0;
   }
 
-  .lang-en .order-image {
+  .order-image {
+    position: relative;
+    order: -1;
     margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -2014,7 +2019,12 @@ footer {
   }
 
   .order-image {
+    position: relative;
     order: -1;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .order-image img {
@@ -2942,13 +2952,17 @@ footer {
         width: 153px;
         max-width: 157px;
         margin-left: 0;
-        opacity: 0.20;
+        margin-top: 7px;
+        opacity: 0.15;
   }
 
   .order-image {
-    position: relative;
+    position: absolute;
+    top: 0;
     left: auto;
-    margin: 0 auto;
+    right: 10px;
+    margin: 0;
+    z-index: 0;
   }
 
   .order-grid {
